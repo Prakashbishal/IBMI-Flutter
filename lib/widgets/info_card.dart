@@ -4,30 +4,36 @@ import 'package:flutter/material.dart';
 class InfoCard extends StatelessWidget {
   final Widget child;
   final double width, height;
+  final EdgeInsetsGeometry padding;
 
   const InfoCard({
     required this.height,
     required this.width,
     required this.child,
+    this.padding = const EdgeInsets.all(12),
   });
 
   @override
   Widget build(BuildContext context) {
+    final bool isDark =
+        CupertinoTheme.of(context).brightness == Brightness.dark;
+
     return Container(
       width: width,
       height: height,
+      padding: padding,
       decoration: BoxDecoration(
-        color: Colors.white,
-        borderRadius: BorderRadius.circular(10),
-        boxShadow: const [
+        color: isDark ? CupertinoColors.systemGrey6 : Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        boxShadow: [
           BoxShadow(
-            color: Colors.black26,
-            blurRadius: 15,
-            offset: Offset(0, 5),
+            color: isDark ? Colors.black45 : Colors.black12,
+            blurRadius: 12,
+            offset: const Offset(0, 4),
           ),
         ],
       ),
-      child: child,
+      child: Center(child: child),
     );
   }
 }
