@@ -1,19 +1,20 @@
-# IBMI - Intelligent BMI Calculator 💪📱
+# 🧮 IBMI - BMI Calculator App
 
-A minimal and interactive BMI (Body Mass Index) Calculator built with Flutter using a Cupertino (iOS-style) UI. Users can input their age, weight, height, and gender to calculate their BMI and get a classification. The app also maintains a history of BMI results.
-
----
-
-## 🚀 Features
-
-- 🧮 **BMI Calculation** based on weight (kg) and height (cm)
-- 📊 **BMI Category Display**: Underweight, Normal, Overweight, Obese
-- 🕓 **Auto-Saving** of last calculated BMI result with timestamp
-- 🔁 **Refresh Button** to reload history
-- 🌙 **Cupertino Design** with smooth sliders and buttons
-- 🧾 **History Page** showing previously calculated BMI result
+A sleek, user-friendly Flutter application that calculates the Body Mass Index (BMI) based on the user's age, height, weight, and gender. Built with Flutter's Cupertino design system and persistent local storage.
 
 ---
+
+## 📱 Features
+
+- ✅ Real-time BMI calculation
+- 📊 Cupertino sliders and buttons for input
+- 🚹🚺 Gender selection toggle
+- 🧠 BMI status (Underweight, Normal, Overweight, etc.)
+- 💾 Saves BMI result and status using Shared Preferences
+- 🧪 Full integration test coverage
+- ✅ GitHub Actions setup for CI/CD
+
+
 ## 🛠️ Tech Stack
 
 - **Flutter** (Cupertino widgets)
