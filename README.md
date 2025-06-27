@@ -1,5 +1,7 @@
 # 🧮 IBMI - BMI Calculator App
 
+![Flutter Test](https://github.com/<your-username>/<repo-name>/actions/workflows/flutter_test.yml/badge.svg)
+
 A sleek, user-friendly Flutter application that calculates the Body Mass Index (BMI) based on the user's age, height, weight, and gender. Built with Flutter's Cupertino design system and persistent local storage.
 
 ---
