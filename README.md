@@ -1,7 +1,5 @@
 # IBMI - BMI Calculator App
 
-![Flutter Test](https://github.com/Prakashbishal/IBMI-Flutter/actions/workflows/flutter_test.yml/badge.svg?branch=main)
-
 A BMI Calculator built with Flutter. This app allows users to input their age, height, weight, and gender, and calculates their Body Mass Index (BMI) with interpretation. It includes:
 
 - 🎯 Clean, iOS-style UI using `Cupertino` widgets
