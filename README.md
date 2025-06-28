@@ -17,3 +17,12 @@ A BMI Calculator built with Flutter. This app allows users to input their age, h
 - **Shared Preferences** (for local data storage)
 
 ---
+![App Screenshot](assets/2740b01d-b058-4c49-819c-2659c17f8d6d.png)
+
+![App Screenshot](assets/1751118543487.png)
+
+![App Screenshot](assets/1751118543490.png)
+
+![App Screenshot](assets/1751118543493.png)
+
+
