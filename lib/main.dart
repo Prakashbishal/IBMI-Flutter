@@ -1,8 +1,6 @@
-import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
+
 import 'package:ibmi/pages/main_page.dart';
-import 'package:ibmi/utils/calculator.dart';
 
 void main() {
   runApp(const MyApp());
